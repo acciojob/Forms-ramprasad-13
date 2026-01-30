@@ -10,3 +10,39 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+/* Card.css */
+.card {
+  background-color: #ffffff;      /* White background */
+  width: 400px;                   /* Fixed width for the form */
+  margin: 40px auto;              /* Centers the card horizontally */
+  padding: 30px;                  /* Internal spacing */
+  border-radius: 10px;            /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+  border: 1px solid #e0e0e0;      /* Light border */
+  text-align: center;             /* Centers text/inputs inside */
+}
+
+/* Optional: Make input fields inside the card look nice too */
+.card input {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
