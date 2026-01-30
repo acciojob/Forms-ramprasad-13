@@ -27,7 +27,7 @@ const FormState = () => {
 
   return (
     <Card>
-    <form id='info-form' onSubmit={handleSubmit}>
+    <form id='form-state-link' onSubmit={handleSubmit}>
       <input id='full_name' name='full_name' type='text' placeholder='Full Name' onChange={(e)=> setFullName(e.target.value)} />
       <input id='email' name='email' type='email' placeholder='Email' onChange={(e)=> setEmail(e.target.value)} />
       <input id='password' name='password' type='text' placeholder='password' onChange={(e)=> setPassword(e.target.value)} />

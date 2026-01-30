@@ -22,7 +22,7 @@ const Form = () => {
 
   return (
     <Card>
-    <form id='info-form' onSubmit={handleSubmit}>
+    <form id='form-link' onSubmit={handleSubmit}>
       <input id='full_name' name='full_name' type='text' placeholder='Full Name' />
       <input id='email' name='email' type='email' placeholder='Email' />
       <input id='password' name='password' type='text' placeholder='password' />

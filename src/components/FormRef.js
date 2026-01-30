@@ -28,7 +28,7 @@ const FormRef = () => {
 
   return (
     <Card>
-      <form id='info-form' onSubmit={handleSubmit}>
+      <form id='form-ref-link' onSubmit={handleSubmit}>
         <input id='full_name' name='full_name' type='text' placeholder='Full Name' ref={nameRef} />
         <input id='email' name='email' type='email' placeholder='Email' ref={emailRef} />
         <input id='password' name='password' type='text' placeholder='password' ref={passwordRef} />
